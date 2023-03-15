@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+    }
+
+    body {
+      background-image: url("./background.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      
+    }
+
+    .bt a{
+      color: white; /* tirar a cor roxa do botão*/
+
+    }
+
+    .read a{
+      color: black; /*tirar a cor roxa do read*/
+
+    }
+      .title{
+        font-family: 'Cinzel';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 86px;
+        text-align: center;
+        color: #151718;
+        padding-top: 90px;
+      }
+
+      .pink{
+        font-family: 'Cinzel';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 86px;
+        text-align: center;
+        color: #DB2777;
+        
+      }
+
+      .sub{
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: rgba(44, 46, 47, 0.9);
+        
+      }
+
+      .box{
+        display: flex;
+        flex-direction: row;
+        justify-content: center; /* alinha na horizontal - */
+        align-items: center; /*alinha na vertical | */
+        padding-top: 50px;
+
+      }
+
+      .read{
+        align-items: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 570;
+        font-size: 30px;
+        text-decoration: none;
+        margin-right: 48px;
+        color: black;
+      }
+
+      .bt{
+        background-color: #DB2777;
+        width: 180px;
+        height: 60px;
+        border: none;
+        border-radius: 20px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        color: white;  
+        text-decoration: none;
+        align-items: center;
+
+      }
+
+
+      @media (max-width: 768px) {
+        /* estilos para telas menores que 768px de largura */
+        .title{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+        .pink{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+        }
+
+        .read{
+          display: flex;
+          flex-direction: column;
+          gap: 8px;
+        }
+        .bt{
+          display: flex;
+          flex-direction: column;
+          gap: 8px;
+          align-items: center;
+
+        }
+
+      }
+
+
+     
+
+   
