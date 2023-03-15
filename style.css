@@ -109,16 +109,14 @@
 
         }
 
-        .read{
+          .box{
           display: flex;
-          flex-direction: column;
-          gap: 8px;
-        }
-        .bt{
-          display: flex;
-          flex-direction: column;
+          flex-direction: row;
           gap: 8px;
           align-items: center;
+          justify-content: center;
+          
+        }
 
         }
 
