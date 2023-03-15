@@ -95,7 +95,7 @@
       }
 
 
-      @media (max-width: 768px) {
+     @media (max-width: 768px) {
         /* estilos para telas menores que 768px de largura */
         .title{
           display: flex;
@@ -109,17 +109,22 @@
 
         }
 
-          .box{
+        .box{
           display: flex;
-          flex-direction: column;
+          flex-direction: column;          
           align-items: center;
           justify-content: center;
-            
-       }
-          .read{
-          margin-bottom: 5px;
-          }
+          
         }
+.read{
+  position: center;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+
+
+      }
 
    
 
